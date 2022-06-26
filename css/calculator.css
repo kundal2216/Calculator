@@ -1,0 +1,117 @@
+body{
+    background-color: grey;
+}
+#calc{
+  background-color: aqua;
+  border: 5px  ;
+  height: 500px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 2px 2px 6px #000000;
+  border-radius: 10px;
+  position: relative;
+  display: block;
+}
+#inputbox{
+  height: 60px;
+  width: 346px;
+  font-size: 45px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: none;
+  text-align: right;
+  outline: none;
+}
+#a{
+   height: 65px;
+   width: 65px;
+   margin: 8px 8px 6px 10px;
+   border: none;
+   font-size: 20px;
+   /* box-shadow: 2px 2px 6px #000000; */
+   box-shadow: -10px -10px 20px #fff9, 10px 10px 20px #0003;
+   border-radius: 25px;
+}
+#equation{
+    height: 30px;
+    width: 346px; 
+    text-align: right;
+    margin-top:0px ;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+/* #btn{
+   margin: auto;
+   position: absolute;
+   top: 110px;
+   left: 490px;
+   position: fixed;
+}  */
+/* #c{
+    position: absolute;
+    top: 351px;
+    left: 727px;
+} */
+#op{
+   height: 65px;
+   width: 65px;
+   margin: 8px 8px 6px 10px;
+   border: none;
+   background-color: rgba(46, 134, 193, 0.6);
+   font-size: 20px;
+   /* box-shadow: 2px 2px 6px #000000; */
+   box-shadow: -10px -10px 20px #fff9, 10px 10px 20px #0003;
+   border-radius: 25px;
+}
+#d{
+   height: 65px;
+   width: 65px;
+   margin: 8px 8px 6px 10px;
+   border:none;
+   background-color: rgba(47, 79, 79, 0.6);
+   /* box-shadow: 2px 2px 6px #000000; */
+   box-shadow: -10px -10px 20px #fff9, 10px 10px 20px #0003;
+   border-radius: 25px;
+   font-size: 20px;
+}
+.p{
+    background-color: rgba(138, 43, 226, 0.6);
+}
+.b{
+    color: rgb(146, 43, 33 );
+}
+/* .button{
+    background-position: center;
+    transition: background 0.8s;
+}
+.button:hover{
+    background-color:rgb(113, 187, 237) ;
+    background-image: radial-gradient(circle, transparent 1%, #71BBED);
+    background-position: center;
+    background-size: 15000%;
+}
+.button:active{
+    transition: background 0s;
+    background-color:#A1D3F5;
+    background-size: 100%;
+} */
+.history{
+    background-color: rgb(94, 119, 158);
+    height: 323px;
+    width: 260px;
+    color: azure;
+    margin-left: 300;
+    position: absolute;
+    top: 177px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+    overflow: auto;
+    font-size: 20px;
+}
+

@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="https://kit.fontawesome.com/358490fa70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="calc">
+        <input type="text" id="equation" value="" readonly> 
+        <input type="text" id="inputbox" value="0"><br>
+        <input type="button" value="C" id="a" class="p b" onclick="clr('')">
+        <input type="button" value="ch" id="a" class="p" onclick="CH('')">
+        <input type="button" value="H" id="a" class="p" onclick="H('')">
+        <input type="button" value="%" id="op"  class="button" onclick="getVal('%')"><br>
+        <input type="button" value="7" id="a"  class="button" onclick="getVal('7')">
+        <input type="button" value="8" id="a"  class="button" onclick="getVal('8')">
+        <input type="button" value="9" id="a"  class="button" onclick="getVal('9')">
+        <input type="button" value="/" id="op"  class="button" onclick="getVal('/')"><br>
+        <input type="button" value="4" id="a"  class="button" onclick="getVal('4')">
+        <input type="button" value="5" id="a"  class="button" onclick="getVal('5')">
+        <input type="button" value="6" id="a"  class="button" onclick="getVal('6')">
+        <input type="button" value="*" id="op"  class="button" onclick="getVal('*')"><br>
+        <input type="button" value="1" id="a"  class="button" onclick="getVal('1')">
+        <input type="button" value="2" id="a"  class="button" onclick="getVal('2')">
+        <input type="button" value="3" id="a"  class="button" onclick="getVal('3')">
+        <input type="button" value="-" id="op"  class="button" onclick="getVal('-')"><br>
+        <input type="button" value="." id="a"  class="button" onclick="getVal('.')">
+        <input type="button" value="0" id="a"  class="button" onclick="getVal('0')">
+        <input type="button" value="=" id="d"  class="button" onclick="ans('=')">
+        <input type="button" value="+" id="op" class="button" onclick="getVal('+')"><br>
+        <div class="history">
+            <h3>History   <i class="fa-solid fa-circle-trash"></i></h3>
+            <div id="history">
+
+            </div>
+        </div>
+    </div> 
+    <script src="js/calculator.js"></script>
+</body>
+</html>
